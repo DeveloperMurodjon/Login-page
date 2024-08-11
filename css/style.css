@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  align-items: center;
+  background-color: aquamarine;
+  padding-top: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: azure;
+  height: 550px;
+  width: 700px;
+}
+.hero {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 90px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+h2 {
+  padding: 20px 0 20px 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.company-name {
+  display: flex;
+  align-items: center;
+}
+.company-name {
+  gap: 25px;
+  color: black;
+  font-weight: 900;
+  opacity: 70%;
+}
+.name-card,
+.email,
+.phone-nume {
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: 900;
+  opacity: 70%;
+}
+.register-button {
+  color: black;
+  font-weight: 900;
+  opacity: 70%;
+}
+.rbutton {
+  padding: 5px 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: palevioletred;
+}
+form input {
+  border-radius: 5px;
+  padding: 10px 10px;
+  border: none;
+  background-color: #e7e7e7;
+}
